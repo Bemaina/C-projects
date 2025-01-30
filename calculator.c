@@ -6,11 +6,9 @@ int main(void)
     char op;         //operation
     float res;       //result
 
-    printf("Enter two numbers: \n");
-    scanf("%d %d", &num1, &num2);
-
-    printf("Enter operation:(+,-,x,/)\n");
-    scanf(" %c", &op);
+    printf("Enter calculation: \n");
+    scanf("%d %c %d", &num1, &op,  &num2);
+     
 
     switch(op)
     {
